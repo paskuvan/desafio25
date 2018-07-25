@@ -2,7 +2,7 @@
 
 <%= form_with model: Sale.new, url: sales_path, local: true, method: 'post' do |f| %>
 
-  <%= f.label :detail, "Detalle de la venta" %>
+  <%= f.label :detail,  "Detalle de la venta" %>
   <%= f.text_area :detail %>
 
   <%= f.label :category, "Categoría" %>
